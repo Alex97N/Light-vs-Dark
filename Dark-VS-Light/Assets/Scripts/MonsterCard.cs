@@ -4,33 +4,34 @@ using UnityEngine;
 
 [System.Serializable]
 
-public class MonsterCard : MonoBehaviour {
+public class MonsterCard{
     
-	private string id ;
-	private string cardName;
-	private string cardDescription;
+	public string id ;
+	public string cardName;
+	public string cardDescription;
 
-	private int cost;
-	private int atk;
-	private int health;
+	public int cost;
+	public int atk;
+	public int health;
 
 
 	public MonsterCard(){
 
 	}
 
-	public MonsterCard(string id, string cardName, int cost, int atk, int health, string cardDescription){
+	public MonsterCard(string Id, string CardName, int Cost, int Atk, int Health, string CardDescription){
 		
-		this.id = id;
-		this.cardName = cardName;
-		this.cost = cost;
-		this.atk = atk;
-		this.health = health;
-		this.cardDescription = cardDescription;
+		id = Id;
+		cardName = CardName;
+		cost = Cost;
+		atk = Atk;
+		health = Health;
+		cardDescription = CardDescription;
 	}
 
+	/*
 	public string getId(){ return this.id; }
-	public void setID(string id){ this.id = id; }
+	public void setId(string id){ this.id = id; }
 
 	public string getCardName(){ return this.cardName; }
 	public void setCardName(string cardName){ this.cardName = cardName; }
@@ -46,5 +47,6 @@ public class MonsterCard : MonoBehaviour {
 
 	public int getHealth (){ return this.health;}
 	public void setHealth (int health){ this.health = health;}
+	*/
 
 }
