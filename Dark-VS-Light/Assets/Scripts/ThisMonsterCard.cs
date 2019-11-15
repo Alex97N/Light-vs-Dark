@@ -22,9 +22,19 @@ public class ThisMonsterCard : MonoBehaviour{
 	public Text atkText;
 	public Text healthText;
 
+
+	public GameObject Hand;
+	
+	public PlayerDeck deck;
+
+	public int numberOfCardsInDeck;
+
+
     void Start()
     {
         monsterCard = MonsterCardDataBase.monsterCardList[monsterCardId];
+
+		numberOfCardsInDeck = deck.deckMonstersSize;
     }
 
     // Update is called once per frame
@@ -44,6 +54,9 @@ public class ThisMonsterCard : MonoBehaviour{
 		this.atkText.text = "" + this.atk;
 		this.healthText.text = "" + this.health;
 	*/
+
+		Hand = GameObject.Find("Hand");
+
 		id = monsterCard.id;
 		cardName = monsterCard.cardName;
 		cardDescription = monsterCard.cardDescription;
@@ -55,5 +68,15 @@ public class ThisMonsterCard : MonoBehaviour{
 		costText.text = "" + cost;
 		atkText.text = "" + atk;
 		healthText.text = "" + health;
+
+		if(this.tag == "Clone"){
+		
+			monsterCard = PlayerDeck.staticMonsterDeck[numberOfCardsInDeck-1];
+			numberOfCardsInDeck-=1;
+			deck.deckMonstersSize-=1;
+			this.tag = "Untagged";
+			
+		}
+
     }
 }

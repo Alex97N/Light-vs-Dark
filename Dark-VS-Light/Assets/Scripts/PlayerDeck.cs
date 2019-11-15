@@ -7,10 +7,16 @@ public class PlayerDeck : MonoBehaviour
 
 	public List<MonsterCard> deckMonsters = new List<MonsterCard>() ;
 
+	public static List<MonsterCard> staticMonsterDeck = new List<MonsterCard>() ;
+
 	public int idMonster;
 	public int deckMonstersSize;
 
 	public GameObject TopBack;
+
+	public GameObject CardToHand;
+
+	public GameObject Hand;
 
     // Start is called before the first frame update
     void Start()
@@ -24,11 +30,16 @@ public class PlayerDeck : MonoBehaviour
 			deckMonsters[i] = MonsterCardDataBase.monsterCardList[idMonster];
 
 		}
+
+		StartCoroutine(StartGame());
+
     }
 
     // Update is called once per frame
     void Update()
     {
+		staticMonsterDeck = deckMonsters;
+
         if(deckMonstersSize == 0){
 			TopBack.SetActive(false);
 		}else if (deckMonstersSize > 0 && !TopBack.activeSelf){
@@ -50,4 +61,15 @@ public class PlayerDeck : MonoBehaviour
 		}
 	
 	}
+
+	IEnumerator StartGame(){
+
+		for(int i =0;i<=4;i++){
+		
+			yield return new WaitForSeconds(1);
+			Instantiate(CardToHand,transform.position,transform.rotation);
+		}
+
+	}
+
 }
