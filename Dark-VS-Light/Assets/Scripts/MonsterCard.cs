@@ -29,24 +29,4 @@ public class MonsterCard{
 		cardDescription = CardDescription;
 	}
 
-	/*
-	public string getId(){ return this.id; }
-	public void setId(string id){ this.id = id; }
-
-	public string getCardName(){ return this.cardName; }
-	public void setCardName(string cardName){ this.cardName = cardName; }
-
-	public string getCardDescription(){ return this.cardDescription; }
-	public void setCardDescription(string cardDescription){ this.cardDescription = cardDescription; }
-
-	public int getCost (){ return this.cost;}
-	public void setCost (int cost){ this.cost = cost;}
-
-	public int getAtk (){ return this.atk;}
-	public void setAtk (int atk){ this.atk = atk;}
-
-	public int getHealth (){ return this.health;}
-	public void setHealth (int health){ this.health = health;}
-	*/
-
 }

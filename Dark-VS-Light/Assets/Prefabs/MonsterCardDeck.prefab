@@ -211,6 +211,8 @@ MonoBehaviour:
   idMonster: 0
   deckMonstersSize: 0
   TopBack: {fileID: 6263686975610251590}
-  CardToHand: {fileID: 4394600719784174222, guid: 54814edbe66419f4bbdbec635cabb28f,
+  CardToHand: {fileID: 2074937839541201968, guid: 9b6623e1ed455274fa6a742adb7cbff5,
     type: 3}
-  Hand: {fileID: 0}
+  Template: {fileID: 2074937839541201970, guid: 9b6623e1ed455274fa6a742adb7cbff5,
+    type: 3}
+  Hand: {fileID: 1733417154318369672, guid: dcddb99582030574f83a1faa357c4180, type: 3}

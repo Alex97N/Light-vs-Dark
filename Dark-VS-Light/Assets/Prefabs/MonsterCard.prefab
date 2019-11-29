@@ -85,7 +85,7 @@ GameObject:
   - component: {fileID: 2074937839541201970}
   m_Layer: 0
   m_Name: MonsterCard
-  m_TagString: Untagged
+  m_TagString: CardToHand
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -123,12 +123,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsterCard:
-    id: 
-    cardName: 
-    cardDescription: 
-    cost: 0
-    atk: 0
-    health: 0
+    id: m3
+    cardName: Demon3
+    cardDescription: Army of hell
+    cost: 7
+    atk: 120
+    health: 180
   monsterCardId: 0
   id: 
   cardName: 
@@ -139,9 +139,7 @@ MonoBehaviour:
   costText: {fileID: 2074937840271696844}
   atkText: {fileID: 2074937840733795861}
   healthText: {fileID: 2074937840668982445}
-  Hand: {fileID: 0}
-  deck: {fileID: 0}
-  numberOfCardsInDeck: 0
+  HandObject: {fileID: 0}
 --- !u!1 &2074937840214178786
 GameObject:
   m_ObjectHideFlags: 0
