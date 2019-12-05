@@ -28,7 +28,7 @@ public class ThisMonsterCard : MonoBehaviour{
     void Start()
     {
 
-        HandObject = GameObject.Find("Hand");
+        HandObject = GameObject.Find("HandMonsters");
 
         //monsterCard = MonsterCardDataBase.monsterCardList[monsterCardId];
         if (this.tag == "CardToHand")
