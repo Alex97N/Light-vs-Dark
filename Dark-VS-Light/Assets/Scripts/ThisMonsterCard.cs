@@ -21,13 +21,20 @@ public class ThisMonsterCard : MonoBehaviour{
 	public Text costText;
 	public Text atkText;
 	public Text healthText;
+	public Sprite monsterImg;
+	
+	public Sprite monsterImgSprite;
+	public Image monsterImage;
+	
+	public bool isSummoned;
 
 	public GameObject HandObject;
 
 
     void Start()
     {
-
+		
+		isSummoned = false;
         HandObject = GameObject.Find("HandMonsters");
 
         //monsterCard = MonsterCardDataBase.monsterCardList[monsterCardId];
@@ -55,6 +62,8 @@ public class ThisMonsterCard : MonoBehaviour{
 		    cardName = monsterCard.cardName;
 		    cardDescription = monsterCard.cardDescription;
 
+			monsterImgSprite = monsterCard.monsterImg; 
+
 		    cost = monsterCard.cost;
 		    atk = monsterCard.atk;
 		    health = monsterCard.health;
@@ -62,6 +71,11 @@ public class ThisMonsterCard : MonoBehaviour{
 		    costText.text = "" + cost;
 		    atkText.text = "" + atk;
 		    healthText.text = "" + health;
+			
+			monsterImage.sprite =  monsterImgSprite;
+			
+			this.name = cardName;
+			
 	    }
 
 	   
@@ -70,4 +84,13 @@ public class ThisMonsterCard : MonoBehaviour{
 	public void setMonster(MonsterCard m){
 		monsterCard = m;
 	}
+	
+	public bool checkSummoned(){
+		return isSummoned;
+	}
+	
+	public void setSummoned(bool boo){
+		isSummoned = boo;
+	}
+	
 }

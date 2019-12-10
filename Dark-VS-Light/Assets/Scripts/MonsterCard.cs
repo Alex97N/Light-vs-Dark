@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 [System.Serializable]
 
@@ -13,13 +14,14 @@ public class MonsterCard{
 	public int cost;
 	public int atk;
 	public int health;
+	public Sprite monsterImg;
 
 
 	public MonsterCard(){
 
 	}
 
-	public MonsterCard(string Id, string CardName, int Cost, int Atk, int Health, string CardDescription){
+	public MonsterCard(string Id, string CardName, int Cost, int Atk, int Health, string CardDescription,Sprite sp){
 		
 		id = Id;
 		cardName = CardName;
@@ -27,6 +29,7 @@ public class MonsterCard{
 		atk = Atk;
 		health = Health;
 		cardDescription = CardDescription;
+		monsterImg = sp;
 	}
 
 }

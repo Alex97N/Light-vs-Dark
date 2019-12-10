@@ -50,6 +50,8 @@ public class Hand : MonoBehaviour
 
             GameObject gameObject = Instantiate(MonsterCardObject, zones[i].transform.position, zones[i].transform.rotation) as GameObject;
 
+            //gameObject.GetComponent<Summon>().setMonsterCard(gameObject);
+            
             //GameObject gameObjectToInst = new GameObject();
             //gameObjectToInst = MonsterCardObject;
             //Instantiate(MonsterCardObject, zones[monsterCardsHand].transform.position, zones[monsterCardsHand].transform.rotation);
