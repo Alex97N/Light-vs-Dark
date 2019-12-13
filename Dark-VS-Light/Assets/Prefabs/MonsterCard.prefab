@@ -125,12 +125,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsterCard:
-    id: m4
-    cardName: Demon4
+    id: m2
+    cardName: Demon2
     cardDescription: Army of hell
-    cost: 8
-    atk: 150
-    health: 230
+    cost: 5
+    atk: 80
+    health: 100
     monsterImg: {fileID: 21300000, guid: 7efdaf4cee375364daae030101532968, type: 3}
   monsterCardId: 0
   id: 
