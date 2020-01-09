@@ -13,12 +13,28 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hand.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FieldMonsterZone.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MonsterCardDataBase.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerDeck.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Summon.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SummonLocSummon.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Card/Monster/SummonTag.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Field/FieldMonsters.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hand/HandZone.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Field/FieldMonsterZone.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Card/Augment/ActivateTag.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lord/ThisLord.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TurnSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hand/ToggleHands.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hand/Augment/AugmentHand.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Graveyard/AugmentGraveyard.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lord/Lord.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Card/Monster/ThisMonsterCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Card/Augment/ThisAugmentCard.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Card/Monster/MonsterCard.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Card/Augment/AugmentCard.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Database.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Deck/AugmentDeck.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Card/Augment/AugmentEffect.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Graveyard/MonsterGraveyard.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Deck/MonsterDeck.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hand/Monster/MonsterHand.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -27,11 +43,43 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/FieldMonsterZone.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Hand.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Summon.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SummonLocSummon.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MonsterCard.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MonsterCardDataBase.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ThisMonsterCard.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Graveyard.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerDeckAugments.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerDeck.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Augment.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MonsterCard.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ThisAugment.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Mana.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Deck/AugmentDeck.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Deck/PlayerDeck.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Field/FieldMonsterZone.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Field/FieldMonsters.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Hand/HandZone.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SummonLocSummon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Deck/MonsterDeck.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Graveyard/MonsterGraveyard.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Graveyard/AugmentGraveyard.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Card/Augment/ActivateTag.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Card/Augment/AugmentCard.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Card/Augment/AugmentEffect.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Hand/ToggleHands.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Lord/ThisLord.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Lord/Lord.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Card/Monster/MonsterCard.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Card/Augment/ThisAugmentCard.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Database.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Hand/Monster/MonsterHand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Hand/Augment/AugmentHand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Card/Monster/SummonTag.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Card/Monster/ThisMonsterCard.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/startPage/PlayButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TurnSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/startPage/DarkBurron.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/startPage/DarkButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/startPage/LightButton.cs" />
       </list>
     </option>
   </component>
@@ -71,6 +119,23 @@
       <workItem from="1575771674905" duration="5141000" />
       <workItem from="1575848486213" duration="7177000" />
       <workItem from="1575923402515" duration="9363000" />
+      <workItem from="1576202938105" duration="455000" />
+      <workItem from="1577569080234" duration="4278000" />
+      <workItem from="1577694425907" duration="1809000" />
+      <workItem from="1577737993058" duration="11267000" />
+      <workItem from="1577825865310" duration="1939000" />
+      <workItem from="1577848588184" duration="2935000" />
+      <workItem from="1577933936746" duration="7939000" />
+      <workItem from="1577998486113" duration="18374000" />
+      <workItem from="1578086927259" duration="17598000" />
+      <workItem from="1578166750360" duration="13166000" />
+      <workItem from="1578247105051" duration="21269000" />
+      <workItem from="1578325055273" duration="1203000" />
+      <workItem from="1578339880863" duration="5464000" />
+      <workItem from="1578431904080" duration="11626000" />
+      <workItem from="1578510673596" duration="3994000" />
+      <workItem from="1578546520635" duration="8489000" />
+      <workItem from="1578588104954" duration="14545000" />
     </task>
     <servers />
   </component>
